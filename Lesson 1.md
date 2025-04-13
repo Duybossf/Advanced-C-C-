@@ -12,10 +12,24 @@
 
 Câu lệnh:
 
-`gcc -E filename.c -o fileName.i
+                                                  `gcc -E filename.c -o fileName.i`
 
 2. Biên dịch (Compiler): Chuyển nội dung trong file.i sang dạng hợp ngữ (Assembly) tạo ra file.s
 
-3. Hợp dịch (Assembler): Chuyển nội dung trong file.s sang mã máy (machine code) tạo ra file.o
+Câu lệnh:
 
-4. Liên kết (Linker): Trình liên kết sẽ liên kết tất cả các file.o được sử dụng và tạo ra file thực thi cuối cùng có dạng file.exe
+                                                  `gcc -S fileName.i -o fileName.s`
+
+4. Hợp dịch (Assembler): Chuyển nội dung trong file.s sang mã máy (machine code) tạo ra file.o
+
+Câu lệnh:
+
+                                                  `gcc -c fileName.s -o fileName.o`
+
+
+6. Liên kết (Linker): Trình liên kết sẽ liên kết tất cả các file.o được sử dụng và tạo ra file thực thi cuối cùng có dạng file.exe
+
+Câu lệnh:
+
+                                                  `gcc fileName.o -o fileName.exe`
+
