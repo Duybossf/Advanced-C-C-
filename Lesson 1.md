@@ -10,6 +10,9 @@
 
 -> Kết quả tạo ra file có dạng file.i
 
+![image](https://github.com/user-attachments/assets/f42cc464-602c-4aec-9a8a-ea7c41fdcbc5)
+
+
 Câu lệnh:
 
                                                   `gcc -E filename.c -o fileName.i`
