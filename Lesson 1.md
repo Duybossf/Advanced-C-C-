@@ -10,12 +10,13 @@
 
 -> Kết quả tạo ra file có dạng file.i
 
-![image](https://github.com/user-attachments/assets/f42cc464-602c-4aec-9a8a-ea7c41fdcbc5)
-
-
 Câu lệnh:
 
                                                   `gcc -E filename.c -o fileName.i`
+
+Example:
+
+
 
 **2. Biên dịch (Compiler):** Chuyển nội dung trong file.i sang dạng hợp ngữ (Assembly) tạo ra file.s
 
@@ -23,11 +24,19 @@ Câu lệnh:
 
                                                   `gcc -S fileName.i -o fileName.s`
 
+Example:
+
+
+
 **3. Hợp dịch (Assembler):** Chuyển nội dung trong file.s sang mã máy (machine code) tạo ra file.o
 
 Câu lệnh:
 
                                                   `gcc -c fileName.s -o fileName.o`
+
+Example:
+
+
 
 
 **4. Liên kết (Linker):** Trình liên kết sẽ liên kết tất cả các file.o được sử dụng và tạo ra file thực thi cuối cùng có dạng file.exe
@@ -35,4 +44,8 @@ Câu lệnh:
 Câu lệnh:
 
                                                   `gcc fileName.o -o fileName.exe`
+
+Example:
+
+
 
