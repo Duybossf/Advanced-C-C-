@@ -35,3 +35,17 @@ Câu lệnh:
 
 `gcc fileName.o -o fileName.exe`
 
+**II. MACRO**
+
+- Là từ chỉ thông tin được xử lý ở quá trình tiền xử lý (Preprocessor), bao gồm 3 loại chính:
+
+- **#include:** Chèn nội dung file vào mã nguồn, mục đích để tái sử dụng tài nguyên trong file đó và dễ quản lý mã nguồn
+
+- **#define:** Là chỉ thị định nghĩa dùng để thay thế mã nguồn hoặc chuỗi mã nguồn bằng một mã nguồn hoặc chuỗi mã nguồn khác để tránh tình trạng lặp lại và dễ dàng bảo trì về sau.
+
+Example 1: ![image](https://github.com/user-attachments/assets/62d34ca6-5b24-41f2-94d9-0304d0eacc87)
+
+Example 2: ![image](https://github.com/user-attachments/assets/4620a861-c465-4b3a-9d4b-64083795f7a3) ![image](https://github.com/user-attachments/assets/193885f5-7227-4b5d-9734-b476c137e707)
+
+
+
