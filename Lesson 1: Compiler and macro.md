@@ -6,7 +6,7 @@
 
 -> Quá trình biên dịch từ **ngôn ngữ ngữ bậc cao sang ngôn ngữ máy** để máy tính có thể hiểu và thực thi theo yêu cầu gọi cụ thể nào đó gọi là trình biên dịch (Compiler). Trong trình biên dịch GCC để biên dịch ngôn ngữ C và G++ để biên dịch ngôn ngữ C++ sẽ bao gồm các quá trình:
 
-![image](https://github.com/user-attachments/assets/1d0649c6-c5e7-469f-abf3-422da5c75dde)
+                            ![image](https://github.com/user-attachments/assets/1d0649c6-c5e7-469f-abf3-422da5c75dde)
 
 
 **1. Tiền xử lý (Pre-processor):** Quá trình này sẽ thay thế toàn bộ nội dụng file sau chỉ thị **include**, xóa tất cả các comment, thay thế các giá trị của **define**,...
@@ -15,7 +15,7 @@
 
 Câu lệnh:
 
-                                                  `gcc -E filename.c -o fileName.i`
+                                                  ```gcc -E filename.c -o fileName.i
 
 
 **2. Biên dịch (Compiler):** Chuyển nội dung trong file.i sang dạng hợp ngữ (Assembly) tạo ra file.s
