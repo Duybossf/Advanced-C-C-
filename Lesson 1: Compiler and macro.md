@@ -15,7 +15,7 @@
 
 Câu lệnh:
 
-`gcc -E fileName.c -o fileName.i
+`gcc -E fileName.c -o fileName.i`
 
 **2. Biên dịch (Compiler):** Chuyển nội dung trong file.i sang dạng hợp ngữ (Assembly) tạo ra file.s
 
