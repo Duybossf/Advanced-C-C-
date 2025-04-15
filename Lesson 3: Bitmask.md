@@ -43,5 +43,21 @@ VD:
 int a = x ^ y; Với x = 0b0011 và y = 0b0101. Kết quả a = 0b0111
 ```
 
+**III. PHÉP DỊCH BIT (toán tử << hoặc >>)**
 
+1. Phép dịch trái n bit: Là phép dịch toàn bộ các bit sang trái n bit, các bit tận cùng bên phải sẽ thêm n các bit có giá trị 0
+
+VD: 
+```c
+int a = 0b1100 0001;
+int b = a << 2; Khi đó b = 0b0000 0100
+```
+
+2. Phép dịch phải n bit: Là phép dịch toàn bộ các bit sang phải n bit, các bit tận cùng bên trái sẽ thêm n các bit có giá trị 0
+
+VD: 
+```c
+int a = 0b1100 0001;
+int b = a >> 2; Khi đó b = 0b0011 0000
+```
 
