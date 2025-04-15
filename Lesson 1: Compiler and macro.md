@@ -43,9 +43,47 @@ Câu lệnh:
 
 - **#define:** Là chỉ thị định nghĩa dùng để thay thế mã nguồn hoặc chuỗi mã nguồn bằng một mã nguồn hoặc chuỗi mã nguồn khác để tránh tình trạng lặp lại và dễ dàng bảo trì về sau.
 
-Example 1: ![image](https://github.com/user-attachments/assets/62d34ca6-5b24-41f2-94d9-0304d0eacc87)
+Example 1:
 
-Example 2: ![image](https://github.com/user-attachments/assets/4620a861-c465-4b3a-9d4b-64083795f7a3) ![image](https://github.com/user-attachments/assets/193885f5-7227-4b5d-9734-b476c137e707)
+![image](https://github.com/user-attachments/assets/62d34ca6-5b24-41f2-94d9-0304d0eacc87)
+
+Example 2:
+
+![image](https://github.com/user-attachments/assets/4620a861-c465-4b3a-9d4b-64083795f7a3) 
+
+![image](https://github.com/user-attachments/assets/193885f5-7227-4b5d-9734-b476c137e707)
+
+- **#undef:** Là chỉ thị định nghĩa dùng để hủy định nghĩa chỉ thị macro **#define**
+
+Example 3:
+
+![image](https://github.com/user-attachments/assets/b7d79c6a-c27a-4070-b211-e9f0fab7e561)
+
+![image](https://github.com/user-attachments/assets/aa815e5e-f664-4b5b-8167-c5b9194a1b2b)
+
+
+- **#if, #elif, #else, #endif:** Đây là các chỉ thị tiền xử lý được kiểm tra ở thời điểm trước khi biên dịch, có tác dụng đặt điều kiện đoạn code nào sẽ được biên dịch (ứng với điều kiện đúng)
+
+Example 4: Chương trình chỉ biên dịch với trạng thái STATE khác với RUNNING và PENDING
+
+![image](https://github.com/user-attachments/assets/e6ba54f7-3d33-41e3-b22e-0ed1c1d74c5f)
+
+![image](https://github.com/user-attachments/assets/a22f2ec4-5788-404f-9c10-6504e684d738)
+
+- **#ifdef, #ifndef:** Đây là cặp chỉ thị dùng để định nghĩa macro nếu nó chưa được định nghĩa. Thường dùng trong file header để tránh trùng lặp gây ra lỗi redefination
+
+Example 5: 
+
+**III. CÁC TOÁN TỬ TRONG MACRO**
+
+1. Toán tử #: Dùng để chuẩn hóa giá trị thành chuỗi.
+2. Toán tử ##: Dùng để nối 2 chuỗi lại thành 1 chuỗi liên tiếp
+
+Example 6:
+
+![image](https://github.com/user-attachments/assets/ca1890ba-1811-4246-a1b6-4e4fee678611)  ![image](https://github.com/user-attachments/assets/ed58e9ed-cba6-4d76-a0e5-57148cc5103b)
+
+
 
 
 
