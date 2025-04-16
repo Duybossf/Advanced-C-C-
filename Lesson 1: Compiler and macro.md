@@ -39,7 +39,11 @@ Câu lệnh:
 
 - Là từ chỉ thông tin được xử lý ở quá trình tiền xử lý (Preprocessor), bao gồm 3 loại chính:
 
-- **#include:** Chèn nội dung file vào mã nguồn, mục đích để tái sử dụng tài nguyên trong file đó và dễ quản lý mã nguồn
+- **#include:** Chèn nội dung file vào mã nguồn, mục đích để tái sử dụng tài nguyên trong file đó và dễ quản lý mã nguồn.
+
+- Thông thường cú pháp chèn các thư viện có sẵn trong hệ thống, các thư viện chuẩn. Tiền xử lý sẽ tìm file đó trên hệ thống để chèn vào thì dùng #include <...>
+
+- Nếu dùng các file thư viện tự tạo, Tiền xử lý sẽ tìm trên thư mục tạo chương trình trước rồi mới tìm file trên thư mục hệ thống để chèn vào thì dùng #include "..."
 
 - **#define:** Là chỉ thị định nghĩa dùng để thay thế mã nguồn hoặc chuỗi mã nguồn bằng một mã nguồn hoặc chuỗi mã nguồn khác để tránh tình trạng lặp lại và dễ dàng bảo trì về sau.
 
