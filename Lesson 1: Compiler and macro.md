@@ -66,13 +66,14 @@ Example 3:
 
 Example 4: Chương trình chỉ biên dịch với trạng thái STATE khác với RUNNING và PENDING
 
-![image](https://github.com/user-attachments/assets/e6ba54f7-3d33-41e3-b22e-0ed1c1d74c5f)
-
-![image](https://github.com/user-attachments/assets/a22f2ec4-5788-404f-9c10-6504e684d738)
+![image](https://github.com/user-attachments/assets/e6ba54f7-3d33-41e3-b22e-0ed1c1d74c5f) ![image](https://github.com/user-attachments/assets/a22f2ec4-5788-404f-9c10-6504e684d738)
 
 - **#ifdef, #ifndef:** Đây là cặp chỉ thị dùng để định nghĩa macro nếu nó chưa được định nghĩa. Thường dùng trong file header để tránh trùng lặp gây ra lỗi redefination
 
 Example 5: 
+
+![image](https://github.com/user-attachments/assets/0af403e8-4901-44b1-88c9-7d1893fca2b3)
+
 
 **III. CÁC TOÁN TỬ TRONG MACRO**
 
@@ -83,7 +84,11 @@ Example 6:
 
 ![image](https://github.com/user-attachments/assets/ca1890ba-1811-4246-a1b6-4e4fee678611)  ![image](https://github.com/user-attachments/assets/ed58e9ed-cba6-4d76-a0e5-57148cc5103b)
 
+3. Macro Variadic: Là macro thể hiện cho việc nhận tham số chưa xác định trước và để truy xuất các tham số đó là lệnh __VA_ARGS__
 
+Example 7: 
+
+![image](https://github.com/user-attachments/assets/8ee7a527-67e8-40d6-a88e-e3b5d5627842)  ![image](https://github.com/user-attachments/assets/7ef19b7f-e13d-4dea-9273-59c8a479d56c)
 
 
 
