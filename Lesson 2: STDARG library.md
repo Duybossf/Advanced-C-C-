@@ -1,6 +1,6 @@
-**THƯ VIỆN STDARG**
+**THƯ VIỆN STDARG - ASSERT**
 
-**I. Khái niệm**
+**I. Khái niệm thư viện STDARG**
 
 * Thư viện STDARG ```<stdarg.h>``` trong C cung cấp cho chúng ta các maro dùng để sử dụng trong việc định nghĩa các hàm có số lượng tham số không xác định. Cú pháp dùng chung:
 
