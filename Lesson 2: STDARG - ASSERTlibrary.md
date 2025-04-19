@@ -28,7 +28,7 @@ return_type function_name(fixed_arg, ...) {
 
 2. Không biết trước số lượng tham số truyền vào
 
-3. Dùng Struct
+![image](https://github.com/user-attachments/assets/868bad46-bc63-40a0-a461-2644b48655c7)    ![image](https://github.com/user-attachments/assets/ae6f1d86-4311-4ed7-a63d-94170eabfc3f)
 
 **III. Thư viện ASSERT**
 
